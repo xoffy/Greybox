@@ -17,18 +17,15 @@ menu.title.text.color: #686868
 menu.title.text.justify: left
 
 !! Selected menu item
-menu.items.active.bg: gradient splitvertical
-menu.items.active.bg.color: #3287e0
-menu.items.active.bg.colorTo: #398ee7
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: #398ee7
 menu.items.active.text.color: #ffffff
 
 !! Titlebar
 window.active.title.bg: flat solid
 window.active.title.bg.color: #cecece
-window.active.title.bg.colorTo: #cecece
 window.inactive.title.bg: flat solid
 window.inactive.title.bg.color: #cecece
-window.inactive.title.bg.colorTo: #cecece
 
 !! Titlebar text
 window.label.text.justify: left
@@ -66,9 +63,9 @@ menu.overlap.y: 0
 !! Handle
 window.handle.width: 2
 window.*.handle.bg: flat solid
-window.*.handle.bg.color: #f8f8f8
+window.*.handle.bg.color: #cecece
 window.*.grip.bg: flat solid
-window.*.grip.bg.color: #f8f8f8
+window.*.grip.bg.color: #cecece
 
 !! On-screen displays
 osd.bg: flat vertical
